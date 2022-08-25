@@ -1,0 +1,346 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+    
+  }
+
+
+
+  .judul {
+    font-weight: 700;
+  }
+
+
+.banner {
+    background: url(img/bg2.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    height: 280px;
+}
+.hero {
+    width: 800px;
+    
+}
+
+a.sosial-h{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #ffe600;
+    line-height: 40px;
+}
+
+.hero-tul {
+   
+    font-size: 40px;
+    margin-top: -80px;
+    font-weight: 700;
+}
+
+
+@media (max-width: 575.98px) { 
+    .hero {
+        width: 360px;
+        
+    }
+
+    .hero p{
+        font-size: 10px;
+    }
+
+    
+.hero-tul {
+   
+    font-size: 20px;
+    margin-top: -25px;
+    font-weight: 700;
+}
+
+ }
+
+.button-hero {
+    width: 110px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    background: #FFCC01;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    margin-top: 20px;
+
+}
+
+.button-hero:hover {
+    width: 110px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #fff;
+    color: #FFCC01;
+    border: 3px solid #FFCC01;
+    border-radius: 25px;
+    margin-top: 20px;
+
+}
+
+/* navbar color */
+
+.nav-color {
+    background-color: #FFCC01;
+    transition: all ease-in-out 0.3s;
+}
+
+.bg-transparent {
+    transition: all ease-in-out 0.3s;
+}
+
+/* value */
+
+
+#value {
+    padding: 50px 0;
+}
+
+
+
+/* .circle-icon {
+    width: 110px;
+    height: 110px;
+    background-color: #BE2929;
+    border-radius: 50%;
+    transition: all .1s ease-in;
+} */
+
+
+.card-value {
+    width: 100%;
+    height: 230px;
+    background-color: white;
+    padding: 20px;
+    transition: all .2s ease-in;
+    border-radius: 10px;
+
+}
+
+.card-value img {
+    height: 200px;
+    transition: all .3s ease-in;
+}
+
+
+
+.card-value h3 {
+    font-weight: 600;
+    color: #464040;
+    font-size: 20px;
+    transition: all .3s ease-in;
+
+}
+
+
+/* hover value */
+
+.card-value:hover .circle-icon {
+    background-color: #464040;
+    transition: all .1s ease-in;
+
+}
+
+.card-value:hover {
+    width: 100%;
+    height: 230px;
+    background: linear-gradient(120deg, #ffe600, #FFCC01 );
+    padding: 20px;
+    transition: all .2s ease-in;
+
+}
+
+.card-value:hover img {
+    height: 210px;
+    transition: all .3s ease-in;
+}
+
+
+.card-value:hover h3 {
+    font-weight: 600;
+    
+    font-size: 22px;
+    transition: all .3s ease-in;
+}
+
+/* vision */
+
+.vision {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.mission {
+    background-image: url(img/gambar1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* team */
+
+
+.tim img{
+    height: 100px;
+    width: 100px;
+   
+}
+
+
+.kartu {
+    border-radius: 30px;
+    border: 2px solid #FFCC01;
+    padding: 30px;
+    background-color: #fff;
+
+
+}
+
+
+
+.tim p {
+    text-align: justify
+}
+
+/* partner */
+.partner img {
+    height: 120px;
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-top:  30px;
+    
+}
+
+
+
+
+/* footer */
+#footer {
+    background-color: #232324;
+    color: white;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.alamat img {
+    margin-left: 30px;
+}
+
+.footer-kontak a {
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 15px;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.sosmed a {
+    margin-right: 15px;
+}
+
+.navbawah a {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.sosmedfot {
+    color: white;
+    font-size: 24px;
+}
+
+/* AKHIR  */
+.akhir{
+    background-color: #464040;
+    height: 60px;
+    padding-top: 15px;
+    
+}
+
+.akhir a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+/* sektor */
+
+
+.servis-judul {
+    padding-left: 20px;
+    font-weight: 600;
+    color: #232324;
+}
+.servis-tombol {
+   border-color: #FFCC01;
+}
+
+.gambar-servis {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.accordion-button:not(.collapsed) {
+    color: inherit;
+    background-color: #FFCC01;
+}
+
+.accordion-button:not(.collapsed)::after{
+    filter: brightness(0%) invert(100%);
+}
+
+.accordion-button {
+    position: unset;
+}
+
+.sektor-icon {
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(150deg, #ffe600, #FFCC01 );
+    border-radius: 5px;
+    margin: 15px, 15px;
+    
+}
+
+.sektor-icon img {
+    height: 140px;
+}
+
+
+
+.partner img {
+    height: 80px;
+    margin: 8px;
+    padding: 8px;
+    
+    
+    
+      
+}
+
+.pembungkus-partner {
+    background-color: #c5c5c5;
+   
+}
+
+
